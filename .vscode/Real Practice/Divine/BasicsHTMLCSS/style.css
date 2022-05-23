@@ -1,0 +1,47 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+              background-color:rgb(245, 240, 247) ;
+/*Font-family gets inherited not only to the body, but every other part. Most of the font-familes get inherited to the whole html code. */
+              font-family: Arial, Helvetica, sans-serif; 
+              font-size: medium;
+              padding: 75px;
+              margin: 5;
+        }
+h1{
+    font-size: small;
+    padding-bottom: 25px;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    margin-bottom: 10px;
+}
+input,button{
+    padding: 10px;
+    font-size: 15px;}
+/* Below code is: class="first" for /p. */
+.first{
+    color: rgb(165, 42, 42);
+    padding-bottom: 30px;
+}
+/* ID Name */
+#Your-Name{
+     color: beige;
+     border: 5px solid rgb(0, 0, 0);
+     padding: 20px;
+     margin-top: 30px;
+}
+a{
+    background-color: aqua  ;
+}
+#course-image{
+    width: 6px;
+    border: 6px;
+}

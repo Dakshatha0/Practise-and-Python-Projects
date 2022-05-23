@@ -1,0 +1,56 @@
+/*         Selector {
+              Property : value;
+                    }                       */
+.s-navbar-section {
+                        display: none;
+                    }
+body {
+    background-image: url(https://images.unsplash.com/photo-1515339760107-1952b7a08454?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGxpZ2h0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500);
+    background-size: cover;
+}
+h1 {
+    color:#440026;
+    text-align: center;
+    border: 5px dashed #661141;
+    cursor:pointer;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+p {
+   color: #661141;
+}
+.webtext {
+    border: 5px dashed burlywood;
+}
+#div1 {
+    color: aquamarine;
+}
+
+/* C.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source OrderSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.  */
+
+
